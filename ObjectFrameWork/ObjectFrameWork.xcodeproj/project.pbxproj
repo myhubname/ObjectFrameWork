@@ -3,17 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B07448425805D1600897A8C /* HJLayoutBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07448325805D1600897A8C /* HJLayoutBtn.m */; };
+		4B07448825805E2800897A8C /* HJCatche.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07448725805E2800897A8C /* HJCatche.m */; };
+		4B07448C25807F1D00897A8C /* HJSVProHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07448B25807F1D00897A8C /* HJSVProHud.m */; };
+		4B8E928E257F1DF50028EE6A /* HJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E928D257F1DF50028EE6A /* HJConst.m */; };
+		4B8E929A257F2ADA0028EE6A /* HJAppList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E9299257F2ADA0028EE6A /* HJAppList.plist */; };
+		4B8E929E257F2B8E0028EE6A /* HJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E929D257F2B8E0028EE6A /* HJTabBarController.m */; };
+		4B8E92A3257F305F0028EE6A /* UIColor+HJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E92A2257F305F0028EE6A /* UIColor+HJAdd.m */; };
+		4B8E92A8257F31F20028EE6A /* NSString+HJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E92A7257F31F20028EE6A /* NSString+HJAdd.m */; };
+		4B8E92AF257F4B9F0028EE6A /* HJBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E92AE257F4B9F0028EE6A /* HJBaseNavController.m */; };
 		4BD437CE2575F40F00DB6FC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD437CD2575F40F00DB6FC6 /* AppDelegate.m */; };
 		4BD437D92575F41000DB6FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD437D82575F41000DB6FC6 /* Assets.xcassets */; };
 		4BD437DC2575F41000DB6FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD437DA2575F41000DB6FC6 /* LaunchScreen.storyboard */; };
 		4BD437DF2575F41000DB6FC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD437DE2575F41000DB6FC6 /* main.m */; };
+		4BD43809257635CC00DB6FC6 /* HJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43808257635CC00DB6FC6 /* HJBaseViewController.m */; };
+		4BD438122576360500DB6FC6 /* HJIndexPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD438112576360500DB6FC6 /* HJIndexPageViewController.m */; };
+		74818E6736EB8184033D72B0 /* Pods_ObjectFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5C22D328F9E40DB5AC021 /* Pods_ObjectFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D5396B657122A75655959D6 /* Pods-ObjectFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectFrameWork.release.xcconfig"; path = "Target Support Files/Pods-ObjectFrameWork/Pods-ObjectFrameWork.release.xcconfig"; sourceTree = "<group>"; };
+		2DB66FCD7E27A9ABD32BF200 /* Pods-ObjectFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectFrameWork.debug.xcconfig"; path = "Target Support Files/Pods-ObjectFrameWork/Pods-ObjectFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
+		4B07448225805D1600897A8C /* HJLayoutBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLayoutBtn.h; sourceTree = "<group>"; };
+		4B07448325805D1600897A8C /* HJLayoutBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLayoutBtn.m; sourceTree = "<group>"; };
+		4B07448625805E2800897A8C /* HJCatche.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJCatche.h; sourceTree = "<group>"; };
+		4B07448725805E2800897A8C /* HJCatche.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCatche.m; sourceTree = "<group>"; };
+		4B07448A25807F1D00897A8C /* HJSVProHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJSVProHud.h; sourceTree = "<group>"; };
+		4B07448B25807F1D00897A8C /* HJSVProHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJSVProHud.m; sourceTree = "<group>"; };
+		4B8E928C257F1DF50028EE6A /* HJConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJConst.h; sourceTree = "<group>"; };
+		4B8E928D257F1DF50028EE6A /* HJConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJConst.m; sourceTree = "<group>"; };
+		4B8E9299257F2ADA0028EE6A /* HJAppList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HJAppList.plist; sourceTree = "<group>"; };
+		4B8E929C257F2B8E0028EE6A /* HJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTabBarController.h; sourceTree = "<group>"; };
+		4B8E929D257F2B8E0028EE6A /* HJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTabBarController.m; sourceTree = "<group>"; };
+		4B8E92A1257F305F0028EE6A /* UIColor+HJAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HJAdd.h"; sourceTree = "<group>"; };
+		4B8E92A2257F305F0028EE6A /* UIColor+HJAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HJAdd.m"; sourceTree = "<group>"; };
+		4B8E92A6257F31F20028EE6A /* NSString+HJAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HJAdd.h"; sourceTree = "<group>"; };
+		4B8E92A7257F31F20028EE6A /* NSString+HJAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HJAdd.m"; sourceTree = "<group>"; };
+		4B8E92AA257F4ABE0028EE6A /* HJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJCategory.h; sourceTree = "<group>"; };
+		4B8E92AD257F4B9F0028EE6A /* HJBaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseNavController.h; sourceTree = "<group>"; };
+		4B8E92AE257F4B9F0028EE6A /* HJBaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseNavController.m; sourceTree = "<group>"; };
 		4BD437C92575F40F00DB6FC6 /* ObjectFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD437CC2575F40F00DB6FC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4BD437CD2575F40F00DB6FC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +53,13 @@
 		4BD437DB2575F41000DB6FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD437DD2575F41000DB6FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BD437DE2575F41000DB6FC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BD438022576259700DB6FC6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4BD43807257635CC00DB6FC6 /* HJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseViewController.h; sourceTree = "<group>"; };
+		4BD43808257635CC00DB6FC6 /* HJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewController.m; sourceTree = "<group>"; };
+		4BD438102576360500DB6FC6 /* HJIndexPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJIndexPageViewController.h; sourceTree = "<group>"; };
+		4BD438112576360500DB6FC6 /* HJIndexPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJIndexPageViewController.m; sourceTree = "<group>"; };
+		4BD43814257641BA00DB6FC6 /* DefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		CEE5C22D328F9E40DB5AC021 /* Pods_ObjectFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +67,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74818E6736EB8184033D72B0 /* Pods_ObjectFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B8E92A0257F2C7F0028EE6A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E9299257F2ADA0028EE6A /* HJAppList.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4B8E92B1257F5A8E0028EE6A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4B07448225805D1600897A8C /* HJLayoutBtn.h */,
+				4B07448325805D1600897A8C /* HJLayoutBtn.m */,
+				4B07448625805E2800897A8C /* HJCatche.h */,
+				4B07448725805E2800897A8C /* HJCatche.m */,
+				4B07448A25807F1D00897A8C /* HJSVProHud.h */,
+				4B07448B25807F1D00897A8C /* HJSVProHud.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		4BD437C02575F40F00DB6FC6 = {
 			isa = PBXGroup;
 			children = (
 				4BD437CB2575F40F00DB6FC6 /* ObjectFrameWork */,
 				4BD437CA2575F40F00DB6FC6 /* Products */,
+				9C417EA9BEC6F1A669A0A81A /* Pods */,
+				F0E9F0E308D47D4BE452CBF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +116,12 @@
 		4BD437CB2575F40F00DB6FC6 /* ObjectFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				4BD437FC2576247900DB6FC6 /* HJFrameWork */,
 				4BD437E72575F42700DB6FC6 /* Resource */,
 				4BD437CC2575F40F00DB6FC6 /* AppDelegate.h */,
 				4BD437CD2575F40F00DB6FC6 /* AppDelegate.m */,
+				4BD438102576360500DB6FC6 /* HJIndexPageViewController.h */,
+				4BD438112576360500DB6FC6 /* HJIndexPageViewController.m */,
 			);
 			path = ObjectFrameWork;
 			sourceTree = "<group>";
@@ -71,6 +137,87 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		4BD437FC2576247900DB6FC6 /* HJFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E92B1257F5A8E0028EE6A /* Tool */,
+				4B8E92A0257F2C7F0028EE6A /* Resource */,
+				4BD43800257624FD00DB6FC6 /* Base */,
+				4BD437FF257624FD00DB6FC6 /* Category */,
+				4BD437FE257624FD00DB6FC6 /* Public */,
+				4BD437FD257624FD00DB6FC6 /* ThirdParty */,
+			);
+			path = HJFrameWork;
+			sourceTree = "<group>";
+		};
+		4BD437FD257624FD00DB6FC6 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		4BD437FE257624FD00DB6FC6 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				4BD438022576259700DB6FC6 /* PrefixHeader.pch */,
+				4BD43814257641BA00DB6FC6 /* DefineHeader.h */,
+				4B8E928C257F1DF50028EE6A /* HJConst.h */,
+				4B8E928D257F1DF50028EE6A /* HJConst.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		4BD437FF257624FD00DB6FC6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E92AA257F4ABE0028EE6A /* HJCategory.h */,
+				4B8E92A1257F305F0028EE6A /* UIColor+HJAdd.h */,
+				4B8E92A2257F305F0028EE6A /* UIColor+HJAdd.m */,
+				4B8E92A6257F31F20028EE6A /* NSString+HJAdd.h */,
+				4B8E92A7257F31F20028EE6A /* NSString+HJAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4BD43800257624FD00DB6FC6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4BD43806257635B700DB6FC6 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4BD43806257635B700DB6FC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BD43807257635CC00DB6FC6 /* HJBaseViewController.h */,
+				4BD43808257635CC00DB6FC6 /* HJBaseViewController.m */,
+				4B8E929C257F2B8E0028EE6A /* HJTabBarController.h */,
+				4B8E929D257F2B8E0028EE6A /* HJTabBarController.m */,
+				4B8E92AD257F4B9F0028EE6A /* HJBaseNavController.h */,
+				4B8E92AE257F4B9F0028EE6A /* HJBaseNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C417EA9BEC6F1A669A0A81A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB66FCD7E27A9ABD32BF200 /* Pods-ObjectFrameWork.debug.xcconfig */,
+				1D5396B657122A75655959D6 /* Pods-ObjectFrameWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0E9F0E308D47D4BE452CBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5C22D328F9E40DB5AC021 /* Pods_ObjectFrameWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BD437E22575F41000DB6FC6 /* Build configuration list for PBXNativeTarget "ObjectFrameWork" */;
 			buildPhases = (
+				3A1F03ABD2C547869ABF02CF /* [CP] Check Pods Manifest.lock */,
 				4BD437C52575F40F00DB6FC6 /* Sources */,
 				4BD437C62575F40F00DB6FC6 /* Frameworks */,
 				4BD437C72575F40F00DB6FC6 /* Resources */,
+				00178624F53E8ACFB9A55FCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,18 +278,71 @@
 			files = (
 				4BD437DC2575F41000DB6FC6 /* LaunchScreen.storyboard in Resources */,
 				4BD437D92575F41000DB6FC6 /* Assets.xcassets in Resources */,
+				4B8E929A257F2ADA0028EE6A /* HJAppList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00178624F53E8ACFB9A55FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectFrameWork/Pods-ObjectFrameWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectFrameWork/Pods-ObjectFrameWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjectFrameWork/Pods-ObjectFrameWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1F03ABD2C547869ABF02CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectFrameWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4BD437C52575F40F00DB6FC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B07448C25807F1D00897A8C /* HJSVProHud.m in Sources */,
+				4B07448825805E2800897A8C /* HJCatche.m in Sources */,
+				4B8E928E257F1DF50028EE6A /* HJConst.m in Sources */,
+				4B8E92A8257F31F20028EE6A /* NSString+HJAdd.m in Sources */,
+				4B07448425805D1600897A8C /* HJLayoutBtn.m in Sources */,
+				4B8E929E257F2B8E0028EE6A /* HJTabBarController.m in Sources */,
+				4BD438122576360500DB6FC6 /* HJIndexPageViewController.m in Sources */,
+				4BD43809257635CC00DB6FC6 /* HJBaseViewController.m in Sources */,
+				4B8E92A3257F305F0028EE6A /* UIColor+HJAdd.m in Sources */,
 				4BD437CE2575F40F00DB6FC6 /* AppDelegate.m in Sources */,
 				4BD437DF2575F41000DB6FC6 /* main.m in Sources */,
+				4B8E92AF257F4B9F0028EE6A /* HJBaseNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +474,12 @@
 		};
 		4BD437E32575F41000DB6FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB66FCD7E27A9ABD32BF200 /* Pods-ObjectFrameWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ObjectFrameWork/HJFrameWork/Public/PrefixHeader.pch";
 				INFOPLIST_FILE = ObjectFrameWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,10 +493,12 @@
 		};
 		4BD437E42575F41000DB6FC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5396B657122A75655959D6 /* Pods-ObjectFrameWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ObjectFrameWork/HJFrameWork/Public/PrefixHeader.pch";
 				INFOPLIST_FILE = ObjectFrameWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

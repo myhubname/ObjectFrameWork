@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HJIndexPageViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -14,21 +14,18 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    UIViewController *vc = [[UIViewController alloc] init];
+    HJIndexPageViewController *indexPageVc = [[HJIndexPageViewController alloc] init];
     
-    vc.view.backgroundColor = [UIColor whiteColor];
-   
-    self.window.rootViewController = vc;
+    self.window.rootViewController = indexPageVc;
     
     [self.window makeKeyAndVisible];
     
     return YES;
 }
-
 
 
 

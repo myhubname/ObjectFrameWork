@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  ObjectFrameWork
+//
+//  Created by 胡俊杰 on 2020/12/1.
+//
+#ifdef __OBJC__//确保只被Objective-C语言文件引用
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "DefineHeader.h"
+#import "HJConst.h"
+#import "HJCategory.h"
+
+
+#endif /* PrefixHeader_pch */
+#endif
